@@ -2,7 +2,7 @@
 
 Go [here](https://closure-compiler.appspot.com/home) to test the Google Closure Compiler.
 
-### Example Request with `console.log(  "Hello World"   );` and HTTPPOSTCLOB using Google Closure Compiler 
+### Example Request with `*console.log(  "Hello World"   );*` and HTTPPOSTCLOB using Google Closure Compiler 
 ```
 values SYSTOOLS.HTTPPOSTCLOB (
  'https://closure-compiler.appspot.com/compile',
@@ -32,7 +32,7 @@ values SYSTOOLS.HTTPPOSTCLOB (
 }
 
 ```
-## The RPG-program works with the following steps
+## The RPG-program [Sourcecode](https://github.com/RainerRoss/JavaScript-Minifier/blob/master/JSMINIFY.SQLRPGLE) works with the following steps
 ### 1) Load the file test.js from directory /tmp/js `with get_clob_from_file()`
 ### 2) URL-encode the JavaScript code with `urlencode()`
 ### 3) Request to the Google Closure Compiler with `httppostclob()`
