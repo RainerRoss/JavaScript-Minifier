@@ -37,4 +37,4 @@ values SYSTOOLS.HTTPPOSTCLOB (
 ### 2) URL-encode the JavaScript code with `urlencode()`
 ### 3) Request to the Google Closure Compiler with `httppostclob()`
 ### 4) Parse the result with `json_table()`
-### 5) Write the result to IFS-file `test_min.js` 
+### 5) Write the result to IFS-file [test_min.js](https://github.com/RainerRoss/JavaScript-Minifier/blob/master/test_min.js) 
