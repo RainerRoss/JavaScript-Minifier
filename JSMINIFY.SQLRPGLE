@@ -153,9 +153,7 @@
               LocClobFile_nl   = %len(%trim(LocClobFile_name));                                                         
                                                                                                                         
               exec sql set :LocClobfile = :DsData.MinCode; // write to IFS                                              
-           endif;                                                                                                       
-                                                                                                                        
-           sqlcode = sqlcode;                                                                                           
+           endif;                                                                                         
                                                                                                                         
          end-proc;                                                                                                      
       //------------------------------------------------------------------//                                             
