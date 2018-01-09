@@ -21,8 +21,8 @@
                                                                                                                         
          dcl-ds  DsData      qualified inz;                                                                             
                   MinCode    sqltype(CLOB:1000000) ccsid(*utf8);                                                        
-                  SrcSize    int(10);                                                                                   
-                  CmpSize    int(10);                                                                                   
+                  SrcSize    int(10);                 // source-size                                                    
+                  CmpSize    int(10);                 // compressed-size                                                
          end-ds;                                                                                                        
                                                                                                                         
       //------------------------------------------------------------------//                                            
@@ -160,4 +160,4 @@
            sqlcode = sqlcode;                                                                                           
                                                                                                                         
          end-proc;                                                                                                      
-      //------------------------------------------------------------------//                                                   
+      //------------------------------------------------------------------//                                             
