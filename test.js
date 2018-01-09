@@ -30,3 +30,4 @@ var MyAddress = new Address();
 	
 MyAddress.set("Rainer", "Ross", "DE", "86916", "Kaufering");
 MyAddress.print();
+
