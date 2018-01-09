@@ -32,3 +32,6 @@ values SYSTOOLS.HTTPPOSTCLOB (
 }
 
 ```
+## The RPG-program works with the following steps
+### 1) Load the file test.js from directory /tmp/js with get_clob_from_file()
+### 2) URL-encode the JavaScript code 
