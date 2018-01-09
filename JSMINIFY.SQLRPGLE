@@ -1,4 +1,4 @@
-             ctl-opt main(main) dftactgrp(*no) alloc(*teraspace);                                                           
+         ctl-opt main(main) dftactgrp(*no) alloc(*teraspace);                                                           
       //------------------------------------------------------------------//                                            
       //                                                                  //                                            
       // JavaScript Minifier with Google Closure Compiler                 //                                            
@@ -40,16 +40,16 @@
            exec sql set :DsFile.SrcData = get_clob_from_file(:LocStmf);                                                 
                                                                                                                         
            if sqlcode >= *zero and DsFile.SrcData_len > *zero;                                                          
-              encodeBase64(DsFile);                                                                                     
+              urlEncode(DsFile);                                                                                        
               minifyData(DsFile);                                                                                       
               parseResult(DsFile);                                                                                      
            endif;                                                                                                       
                                                                                                                         
          end-proc;                                                                                                      
       //------------------------------------------------------------------//                                            
-      // Encode Base64                                                    //                                            
+      // Url-encode data                                                  //                                            
       //------------------------------------------------------------------//                                            
-         dcl-proc encodeBase64;                                                                                         
+         dcl-proc urlEncode;                                                                                            
          dcl-pi *n;                                                                                                     
                  PiFile      likeds(DsFile);                                                                            
          end-pi;                                                                                                        
@@ -160,4 +160,4 @@
            sqlcode = sqlcode;                                                                                           
                                                                                                                         
          end-proc;                                                                                                      
-      //------------------------------------------------------------------//                                             
+      //------------------------------------------------------------------//                                                   
