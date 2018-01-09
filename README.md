@@ -1,6 +1,6 @@
 # JavaScript-Minifier
 
-## Example Request with `console.log(  "Hello World"   );` and HTTPPOSTCLOB using Google Closure Compiler 
+### Example Request with `console.log(  "Hello World"   );` and HTTPPOSTCLOB using Google Closure Compiler 
 ```
 values SYSTOOLS.HTTPPOSTCLOB (
  'https://closure-compiler.appspot.com/compile',
