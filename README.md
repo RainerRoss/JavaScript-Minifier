@@ -1,5 +1,7 @@
 # JavaScript-Minifier
 
+Go [here](https://closure-compiler.appspot.com/home) to test the Google Closure Compiler.
+
 ### Example Request with `console.log(  "Hello World"   );` and HTTPPOSTCLOB using Google Closure Compiler 
 ```
 values SYSTOOLS.HTTPPOSTCLOB (
