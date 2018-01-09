@@ -147,8 +147,6 @@
               )                                                                                                         
              ) as x;                                                                                                    
                                                                                                                         
-           sqlcode = sqlcode;                                                                                           
-                                                                                                                        
            if sqlcode >= *zero;                                                                                         
               LocClobFile_fo   = SQFOVR;                                                                                
               LocClobFile_name = '/tmp/js/test_min.js';                                                                 
