@@ -33,7 +33,7 @@ values SYSTOOLS.HTTPPOSTCLOB (
 
 ```
 ## The RPG-program [JSMinify](https://github.com/RainerRoss/JavaScript-Minifier/blob/master/JSMINIFY.SQLRPGLE) works with the following steps
-### 1) Load the file `test.js` from directory `/tmp/js` with `get_clob_from_file()`
+### 1) Load the file [test.js](https://github.com/RainerRoss/JavaScript-Minifier/blob/master/test.js) from directory `/tmp/js` with `get_clob_from_file()`
 ### 2) URL-encode the JavaScript code with `urlencode()`
 ### 3) Request to the Google Closure Compiler with `httppostclob()`
 ### 4) Parse the result with `json_table()`
