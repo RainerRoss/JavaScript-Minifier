@@ -18,3 +18,17 @@ values SYSTOOLS.HTTPPOSTCLOB (
  'js_code=' concat systools.urlencode('console.log(   "Hello World"   );','UTF-8')
 );
 ```
+### Request Result 
+```
+{
+    "compiledCode": "console.log(\"Hello World\");",
+    "statistics": {
+        "originalSize": 46,
+        "originalGzipSize": 60,
+        "compressedSize": 27,
+        "compressedGzipSize": 47,
+        "compileTime": 0
+    }
+}
+
+```
