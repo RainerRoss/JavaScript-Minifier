@@ -33,5 +33,8 @@ values SYSTOOLS.HTTPPOSTCLOB (
 
 ```
 ## The RPG-program works with the following steps
-### 1) Load the file test.js from directory /tmp/js with get_clob_from_file()
-### 2) URL-encode the JavaScript code 
+### 1) Load the file test.js from directory /tmp/js `with get_clob_from_file()`
+### 2) URL-encode the JavaScript code with `urlencode()`
+### 3) Request to the Google Closure Compiler with `httppostclob()`
+### 4) Parse the result with `json_table()`
+### 5) Write the result to IFS-file test_min.js
